@@ -1,0 +1,13 @@
+/*Write Java program to print welcome text in seperate line*/
+import java.util.*;
+class welcome
+{
+	public static void main (String [] args)
+	{
+		String str;
+		Scanner Scan = new Scanner(System.in);
+		System.out.println("Ener the string");
+		str =Scan.nextLine();
+		System.out.println("String is" +str);
+	}
+}
